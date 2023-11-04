@@ -2,13 +2,50 @@
 error_reporting(E_ERROR | E_PARSE);
 
  
-$ad_source="snap";
+//$ad_source=echo "<script> alert(""); </script>";
 
-$logo_h='100px';
-$logo_w='20px';
-//echo $ad_source;
+ 
+$action_url="https://script.google.com/macros/s/AKfycbwU7aFNnnUehK7YPu6QfRyAEDONM751JNWOnBInD4drV38qYcGNUsNurdCSceBdxFNJ/exec";
+
+$logo_h='200px';
+$logo_w='200px';
+$form_bg_color="#3cb4aa";
+$bg_image="asnan.jpg";
+$sliders=0;
+$add_source="snap 1  ";
+$phn="966545565557";
+$end_date="20-3-2023";
+$end_time="12:00";
+$insta_url="https://www.instagram.com/dr.kareem_asran/";
+$snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
+$gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
+
+$site_name="د/كريم عسران اخصائي زراعة وتركيبات الاسنان";
+$dr_name="  ";
+$add_title="اقوى العروض ";
+
+$sidebar1_msg="نحلم ونحقق";
+$sidebar2_msg="خدماتنا ";
+$sidebar3_msg="خدماتنا ";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//echo "<script> alert('".$gmap_url."'); </script>";
+
+ 
 
 
 
@@ -22,7 +59,7 @@ try {
 
 
 
-$handle = fopen("services/drkareem.txt", "r");
+$handle = fopen("services.txt", "r");
 if ($handle) {
 $i=0;
     while (($line = fgets($handle)) !== false) {
@@ -41,14 +78,14 @@ $items['Peter'.$i]=$line;
 
 
 
-
+ 
 
 
 $info = array(
 
     
 
-    "website_title"=>"        عيادات رويال       ",
+    "website_title"=>$site_name,
      "sub1"=>"      الحمزة للسيارات  ",
     "sub2"=>"أفضل عروض شانجان - شانجان جديدة بأفضل سعر   
       ",
@@ -57,18 +94,19 @@ $info = array(
 
 
 
- "sidebar1_msg"=>"          عروض الصيف تنتظرك       ",
- "sidebar2_msg"=>"  تجهيزات باحدث التقنيات     ",
- "sidebar3_msg"=>"     2  كادر طبي متميز       ",
+ "sidebar1_msg"=>$sidebar1_msg,
+ "sidebar2_msg"=>$sidebar2_msg,
+ "sidebar3_msg"=>$sidebar3_msg,
 
     "form_sub1"=>"               ",
     "form_sub2"=>"      ",
 
 
  
-    "ev_logo_name"=>"    
-عيادة د/كريم عسران
-    ",
+    "ev_logo_name"=>
+    $site_name
+    ,
+
 
 
     
@@ -88,7 +126,7 @@ $info = array(
     "lt_sub1"=>"    
     
 
-    معا يمكننا تجميل ابتسامتك
+ 
     ",
 
 
@@ -96,7 +134,7 @@ $info = array(
 
  
 
- 
+    تتوفر خدمة التقسيط على دفعات
 
 
 

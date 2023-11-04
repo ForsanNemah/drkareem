@@ -1,5 +1,8 @@
+
+
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-<a href="https://wa.me/966568430828" class="float" target="_blank">
+<a target="_self" href="index_w_app.php" class="float" target="_blank" id="w_app_id">
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 
@@ -31,5 +34,16 @@
 
 
 </style>
+
+
+
+<script type="text/javascript">
+
+ //var phn="<?=$phn?>";
+    //document.getElementById("w_app_id").href="https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20"; 
+  
+//alert(phn);
+
+</script>
 
  

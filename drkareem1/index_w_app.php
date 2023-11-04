@@ -35,8 +35,8 @@ include 'head.php';
 <?php
 include 'info.php';
 //include 'cta/cta_call.php';
-include 'cta/cta_whatsapp.php';
-include 'cta/cta_insta.php';
+//include 'cta/cta_whatsapp.php';
+//include 'cta/cta_insta.php';
 //include 'cta/cta_snap.php';
 //include 'cta/cta_gmap.php';
 
@@ -157,7 +157,7 @@ include 'logo_section.php';
 <?php
 
 //include "video.php";
-include "form.php";
+include "form_w_app.php";
 ?>
 
 
@@ -166,12 +166,7 @@ include "form.php";
 	<div class="how-it-works-container section-container section-container-gray-bg  "    >
 	        <div class="container">
 
-          <?php
-
-include 'about.php';
-
- 
-?>
+         
 	            <div class="row">
 
 
@@ -369,9 +364,9 @@ var datetime = "" + currentdate.getDate() + "/"
     'user_phone_number': event_phn
 });
     
-   alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
-
-   //window.location.replace("https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20") ;
+   //alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
+   var phn="<?=$phn?>";
+   window.location.replace("https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20") ;
 
 
 

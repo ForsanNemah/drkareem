@@ -1,4 +1,12 @@
+<?php 
+header("Content-type: text/css; charset: UTF-8");
+ 
+include "../info.php";
 
+//include "../info.php"
+//<?php echo $form_bg_color; ?>
+
+?>
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
@@ -54,14 +62,26 @@ a:hover {
     text-decoration: none;
 }
 
- 
+.appointment {
+    background: url(./image/<?php echo $bg_image;?>) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .appointment-section {
     background: rgba(0, 0, 0, 0.6);
     height: 550px;
 }
 /*for settings*/
- 
+.appointment-form {
+    /*background-color: rgba(0, 0, 0, 0.7); */
+    background-color:<?php echo $form_bg_color;?> !important;/*form bg*/
+    padding: 10px 10px;
+    margin: 5% 37%;
+    max-width: 420px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
 
     .appointment-form .appointment-title {
         font-size: 28px;
