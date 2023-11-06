@@ -9,7 +9,7 @@ $action_url="https://script.google.com/macros/s/AKfycbwU7aFNnnUehK7YPu6QfRyAEDON
 
 $logo_h='200px';
 $logo_w='200px';
-$form_bg_color="#3cb4aa";
+$form_bg_color="#eaba4b";
 $bg_image="asnan.jpg";
 $sliders=0;
 $add_source="snap 1  ";
@@ -20,7 +20,7 @@ $insta_url="https://www.instagram.com/dr.kareem_asran/";
 $snap_url="https://www.instagram.com/dr.eman_elsharkawy/?hl=ar";
 $gmap_url="https://goo.gl/maps/S1Zko9MvKiYzqPQV9";
 
-$site_name="د/كريم عسران اخصائي زراعة وتركيبات الاسنان";
+$site_name="فريق عيادات د/كريم عسران ";
 $dr_name="  ";
 $add_title="اقوى العروض ";
 
@@ -72,6 +72,41 @@ $items['Peter'.$i]=$line;
 
     fclose($handle);
 }
+
+
+
+
+
+
+    $items_branches = array();
+
+
+
+$handle = fopen("branches.txt", "r");
+if ($handle) {
+$i=0;
+    while (($line = fgets($handle)) !== false) {
+        //echo $line."<br>".$i; 
+$i++;
+$items_branches['Peter'.$i]=$line;
+
+
+    }
+
+    fclose($handle);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
