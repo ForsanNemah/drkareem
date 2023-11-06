@@ -5,7 +5,7 @@
 
 
 
-make_slider("sidebar1","one","");
+make_slider("sidebar1","one","احصل على ابتسامة المشاهير ");
  
 //make_slider("sidebar2","tow");
 //make_slider("sidebar3","three");
