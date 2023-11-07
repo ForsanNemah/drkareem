@@ -279,7 +279,7 @@ $(document).click(function(evt) {
 }
 
 
-footer p, a {
+footer p,  {
      padding-top: 0px; 
 }
 
