@@ -59,7 +59,7 @@
 
 
 
-                                    <p class="appointment-title text-light pulsate" >     
+                                    <p class="appointment-title text-light">     
 
                                     <?php
 
@@ -73,21 +73,11 @@ include 'info.php';
 ?>
                                     
                                     </p>
-                                    <p class="appointment-title text-light pulsate" style="font-size:1.2em;direction:rtl">   
+                                    <p class="appointment-title text-light" style="font-size:1.2em;direction:rtl">   
                                   
                                   
                                   
-                                  
-                                    <?php
-
-include 'info.php';
-
- echo $info['ev_form_sub2'];
-
-
-
-
-?>
+وسيتم نقلك الى لوكيشن فرع الخبر مباشرة
                                   
                                   
                                   
@@ -162,18 +152,11 @@ echo  $add_source;
 
 
 
-
- 
-
-<br>
-
 <?php
 
 
-include "services_select.php";
-include "branch_select.php";
 
-
+//include "services_select.php";
 
 ?>
 
@@ -221,7 +204,7 @@ include "branch_select.php";
 
 
 
-                                    <button id="send" type="submit" class="btn submit-btn">اضغط للتسجيل</button>
+                                    <button id="send" type="submit" class="btn submit-btn">فتح وتساب </button>
                                 </form>
                             </div>
                         </div>
@@ -241,7 +224,9 @@ include 'info.php';
 ?>
                             </h4>
                             <br />
-                            <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">             <?php
+                            <p class="text-light" style="font-size: 1.2em; font-size: 1.2em; font-family: inherit !important ">     
+
+                       <?php
 
 include 'info.php';
 
@@ -250,7 +235,7 @@ include 'info.php';
 
 
 
-?>
+?>     
              </p>
                         
                         </div>

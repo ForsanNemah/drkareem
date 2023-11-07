@@ -73,10 +73,24 @@ include 'info.php';
 
  
 
-echo "  <h4 style='color:black' class='pulsate'>".$info['ev_logo_name']."</h4>";
+echo "  <h4 style='color:black'  >".$info['ev_logo_name']."</h4>";
 echo "  <h4 style='color:black' class='pulsate'> ".$dr_name."</h4>";
-echo "  <h2 style='color:green' class='pulsate'>".$add_title." </h2>";
-//echo "  <h3><a style='color:blue'  href='".$gmap_url."'>موقعنا على الخريطة </a></h3>";
+echo "  <h2 style='color:green'  >".$add_title." </h2>";
+
+ 
+$sn=$_SERVER['SCRIPT_FILENAME'];
+
+$current_script_file=explode("/",$sn);
+//print_r($current_script_file);
+ 
+
+ if(end($current_script_file)=="index.php"){
+
+    echo "  <h3><a style='color:blue'  href='index_map_1.php'>موقعنا على الخريطة( فرع الخبر ) </a></h3>";
+    echo "<br>";
+    echo "  <h3><a style='color:blue'  href='index_map_2.php'>موقعنا على الخريطة( فرع الدمام ) </a></h3>";
+
+ }
 
 
 ?>
@@ -117,3 +131,33 @@ echo "
 
         </div>
     </section>
+
+
+
+    <style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>

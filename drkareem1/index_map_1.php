@@ -157,7 +157,7 @@ include 'logo_section.php';
 <?php
 
 //include "video.php";
-include "form_w_app.php";
+include "form_map_1.php";
 ?>
 
 
@@ -366,7 +366,7 @@ var datetime = "" + currentdate.getDate() + "/"
     
    //alert("تمت عملية التسجيل بنجاح وسيتم التواصل معك في اقرب وقت ");
    var phn="<?=$phn?>";
-   window.location.replace("https://api.whatsapp.com/send?phone="+phn+"&text=%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84%20%D8%A7%D9%83%D8%AB%D8%B1%20%D8%B9%D9%86%20%D8%A7%D9%84%D8%A7%D8%B9%D9%84%D8%A7%D9%86%20") ;
+   window.location.replace("https://maps.app.goo.gl/LvfSmtEkBfLoJao59?g_st=iw") ;
 
 
 
