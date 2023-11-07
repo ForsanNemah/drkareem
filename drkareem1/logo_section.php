@@ -88,6 +88,7 @@ $current_script_file=explode("/",$sn);
 
     echo "  <h3><a style='color:blue'  href='index_map_1.php'>موقعنا على الخريطة( فرع الخبر ) </a></h3>";
     echo "<br>";
+    echo "<br>";
     echo "  <h3><a style='color:blue'  href='index_map_2.php'>موقعنا على الخريطة( فرع الدمام ) </a></h3>";
 
  }

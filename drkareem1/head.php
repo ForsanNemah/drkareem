@@ -275,8 +275,13 @@ $(document).click(function(evt) {
 .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 5px;
     margin-bottom: 5px;
+ 
 }
 
+
+footer p, a {
+     padding-top: 0px; 
+}
 
 
 
