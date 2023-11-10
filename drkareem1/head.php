@@ -103,7 +103,18 @@ r.src=n;var u=t.getElementsByTagName(s)[0];
 u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
-snaptr('init', 'd2781325-81f3-43c2-bec5-920eb3b1a13d');
+snaptr('init', 'd2781325-81f3-43c2-bec5-920eb3b1a13d'
+
+
+
+, {
+'user_email': '_INSERT_USER_EMAIL_'
+}
+
+
+
+
+);
 
 snaptr('track', 'PAGE_VIEW');
  
