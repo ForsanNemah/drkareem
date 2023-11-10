@@ -121,7 +121,7 @@ snaptr('track', 'PAGE_VIEW');
 <script>
 
 $(document).click(function(evt) {
-  snaptr('track','AD_CLICK');
+  //snaptr('track','AD_CLICK');
     });
 
 
