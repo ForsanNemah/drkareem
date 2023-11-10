@@ -84,18 +84,6 @@ include 'info.php';
 
 
 
-
-
-
-
-
-
-
-
-<script>
-var event_phn="<?=$phn?>";
-var event_email="info@wmc-ksa.com";
-
 <!-- Snap Pixel Code -->
 <script type='text/javascript'>
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
@@ -112,17 +100,14 @@ snaptr('init', 'd2781325-81f3-43c2-bec5-920eb3b1a13d', {
 snaptr('track', 'PAGE_VIEW');
 
 </script>
+
+
+
+
+
+
+
  
- 
- 
-
-
-
-
-
-
-
-    </script>
 
 
 <script>
