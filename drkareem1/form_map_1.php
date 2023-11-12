@@ -204,7 +204,7 @@ echo  $add_source;
 
 
 
-                                    <button id="send" type="submit" class="btn submit-btn">فتح وتساب </button>
+                                    <button id="send" type="submit" class="btn submit-btn">فتح الموقع </button>
                                 </form>
                             </div>
                         </div>
