@@ -9,12 +9,16 @@ make_slider("sidebar1","one","احصل على ابتسامة المشاهير ",
 
 
 make_slider("sidebar2","tow","د/كريم عسران","خبير تجميل وزراعة الاسنان");
+make_slider("sidebar6","six","د/عبدالله فوزي   ","خبير جراحة الاسنان ");
+make_slider("sidebar5","five","د اسامه مصطفى","خبير تجميل الاسنان");
+
 make_slider("sidebar3","three","دكتور عابد الطويل","تركيبات ثابته ومتحركة ..معالجات العصب والحشوات التجميلية..ابتسامة هوليود ..علاجات اللثة");
 //make_slider("sidebar2","tow","","");
  
-make_slider("sidebar4","four","د ابراهيم امان","خبير تجميل الاسنان");
-make_slider("sidebar5","five","د اسامه مصطفى","خبير تجميل الاسنان");
-make_slider("sidebar6","six","د/عبدالله فوزي   ","خبير تجميل الاسنان");
+make_slider("sidebar4","four","د ابراهيم امان","خبير معالجة الاسنان ومعالجة العصب والحشوات التجميلية");
+
+
+make_slider("sidebar7","seven","د محمد محمود  ","استشاري جراحة الوجه والفكين  والاسنان ");
 //make_slider("sidebar2","tow");
 //make_slider("sidebar3","three");
 
