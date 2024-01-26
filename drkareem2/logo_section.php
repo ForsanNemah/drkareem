@@ -90,7 +90,7 @@ $current_script_file=explode("/",$sn);
     echo "<br>";
     echo "<br>";
     echo "  <h3><a style='color:blue'  href='index_map_2.php'>موقعنا على الخريطة( فرع الدمام ) </a></h3>";
-    echo "  <h3><a style='color:blue'  href=''>قريبا فرع الاحساء  </a></h3>";
+   // echo "  <h3><a style='color:blue'  href=''>قريبا فرع الاحساء  </a></h3>";
 
  }
 
